@@ -24,7 +24,6 @@ from dataloaders.data_rgb import get_training_data, get_validation_data
 from pdb import set_trace as stx
 
 from models import *
-from losses import CharbonnierLoss
 
 from tqdm import tqdm 
 from warmup_scheduler import GradualWarmupScheduler
