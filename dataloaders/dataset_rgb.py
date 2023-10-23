@@ -84,7 +84,7 @@ class DataLoaderTrain(Dataset):
         self.tar_size = len(self.clean_filenames)  # get the size of target
 
     def __len__(self):
-        return self.tar_size * 50
+        return self.tar_size * 250
 
     def __getitem__(self, index):
         tar_index   = index % self.tar_size
