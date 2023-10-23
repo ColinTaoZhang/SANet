@@ -31,7 +31,7 @@ import cv2
 import matplotlib.pyplot as plt
 import matplotlib
 
-from image_utils import batch_metric
+from utils.image_utils import batch_metric
 
 parser = argparse.ArgumentParser(description='RGB denoising evaluation on the validation set of SIDD')
 # parser.add_argument('--input_dir', default='/home/zhangtao/RGB_dataset/benchmark/Urban100/HR', type=str, help='Directory of validation images')
